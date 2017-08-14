@@ -13,8 +13,8 @@
 		01E8F65E1C22831400C08F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F65C1C22831400C08F7B /* Main.storyboard */; };
 		01E8F6601C22831400C08F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F65F1C22831400C08F7B /* Assets.xcassets */; };
 		01E8F6631C22831400C08F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F6611C22831400C08F7B /* LaunchScreen.storyboard */; };
-		01E8F66E1C22831400C08F7B /* scrollerViewResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F66D1C22831400C08F7B /* scrollerViewResponseTests.m */; };
-		01E8F6791C22831400C08F7B /* scrollerViewResponseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F6781C22831400C08F7B /* scrollerViewResponseUITests.m */; };
+		01E8F66E1C22831400C08F7B /* ScrollerViewResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F66D1C22831400C08F7B /* ScrollerViewResponseTests.m */; };
+		01E8F6791C22831400C08F7B /* ScrollerViewResponseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F6781C22831400C08F7B /* ScrollerViewResponseUITests.m */; };
 		01E8F68E1C229B8E00C08F7B /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F68D1C229B8E00C08F7B /* ColorView.m */; };
 		01E8F6941C22A50700C08F7B /* ScrollVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F6931C22A50700C08F7B /* ScrollVeiw.m */; };
 		01E8F69A1C22B50D00C08F7B /* ControllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F6991C22B50D00C08F7B /* ControllView.m */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E8F6501C22831400C08F7B /* scrollerViewResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollerViewResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F6501C22831400C08F7B /* ScrollerViewResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerViewResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E8F6541C22831400C08F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01E8F6561C22831400C08F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E8F6571C22831400C08F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,11 +48,11 @@
 		01E8F65F1C22831400C08F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E8F6621C22831400C08F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E8F6641C22831400C08F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E8F6691C22831400C08F7B /* scrollerViewResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollerViewResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01E8F66D1C22831400C08F7B /* scrollerViewResponseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollerViewResponseTests.m; sourceTree = "<group>"; };
+		01E8F6691C22831400C08F7B /* ScrollerViewResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerViewResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F66D1C22831400C08F7B /* ScrollerViewResponseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewResponseTests.m; sourceTree = "<group>"; };
 		01E8F66F1C22831400C08F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E8F6741C22831400C08F7B /* scrollerViewResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollerViewResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01E8F6781C22831400C08F7B /* scrollerViewResponseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollerViewResponseUITests.m; sourceTree = "<group>"; };
+		01E8F6741C22831400C08F7B /* ScrollerViewResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerViewResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F6781C22831400C08F7B /* ScrollerViewResponseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewResponseUITests.m; sourceTree = "<group>"; };
 		01E8F67A1C22831500C08F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01E8F68C1C229B8E00C08F7B /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
 		01E8F68D1C229B8E00C08F7B /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
@@ -90,9 +90,9 @@
 		01E8F6471C22831400C08F7B = {
 			isa = PBXGroup;
 			children = (
-				01E8F6521C22831400C08F7B /* scrollerViewResponse */,
-				01E8F66C1C22831400C08F7B /* scrollerViewResponseTests */,
-				01E8F6771C22831400C08F7B /* scrollerViewResponseUITests */,
+				01E8F6521C22831400C08F7B /* ScrollerViewResponse */,
+				01E8F66C1C22831400C08F7B /* ScrollerViewResponseTests */,
+				01E8F6771C22831400C08F7B /* ScrollerViewResponseUITests */,
 				01E8F6511C22831400C08F7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,14 +100,14 @@
 		01E8F6511C22831400C08F7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01E8F6501C22831400C08F7B /* scrollerViewResponse.app */,
-				01E8F6691C22831400C08F7B /* scrollerViewResponseTests.xctest */,
-				01E8F6741C22831400C08F7B /* scrollerViewResponseUITests.xctest */,
+				01E8F6501C22831400C08F7B /* ScrollerViewResponse.app */,
+				01E8F6691C22831400C08F7B /* ScrollerViewResponseTests.xctest */,
+				01E8F6741C22831400C08F7B /* ScrollerViewResponseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01E8F6521C22831400C08F7B /* scrollerViewResponse */ = {
+		01E8F6521C22831400C08F7B /* ScrollerViewResponse */ = {
 			isa = PBXGroup;
 			children = (
 				01E8F6561C22831400C08F7B /* AppDelegate.h */,
@@ -126,6 +126,7 @@
 				01E8F6641C22831400C08F7B /* Info.plist */,
 				01E8F6531C22831400C08F7B /* Supporting Files */,
 			);
+			name = ScrollerViewResponse;
 			path = scrollerViewResponse;
 			sourceTree = "<group>";
 		};
@@ -137,30 +138,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01E8F66C1C22831400C08F7B /* scrollerViewResponseTests */ = {
+		01E8F66C1C22831400C08F7B /* ScrollerViewResponseTests */ = {
 			isa = PBXGroup;
 			children = (
-				01E8F66D1C22831400C08F7B /* scrollerViewResponseTests.m */,
+				01E8F66D1C22831400C08F7B /* ScrollerViewResponseTests.m */,
 				01E8F66F1C22831400C08F7B /* Info.plist */,
 			);
+			name = ScrollerViewResponseTests;
 			path = scrollerViewResponseTests;
 			sourceTree = "<group>";
 		};
-		01E8F6771C22831400C08F7B /* scrollerViewResponseUITests */ = {
+		01E8F6771C22831400C08F7B /* ScrollerViewResponseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				01E8F6781C22831400C08F7B /* scrollerViewResponseUITests.m */,
+				01E8F6781C22831400C08F7B /* ScrollerViewResponseUITests.m */,
 				01E8F67A1C22831500C08F7B /* Info.plist */,
 			);
+			name = ScrollerViewResponseUITests;
 			path = scrollerViewResponseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01E8F64F1C22831400C08F7B /* scrollerViewResponse */ = {
+		01E8F64F1C22831400C08F7B /* ScrollerViewResponse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01E8F67D1C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponse" */;
+			buildConfigurationList = 01E8F67D1C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponse" */;
 			buildPhases = (
 				01E8F64C1C22831400C08F7B /* Sources */,
 				01E8F64D1C22831400C08F7B /* Frameworks */,
@@ -170,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = scrollerViewResponse;
+			name = ScrollerViewResponse;
 			productName = scrollerViewResponse;
-			productReference = 01E8F6501C22831400C08F7B /* scrollerViewResponse.app */;
+			productReference = 01E8F6501C22831400C08F7B /* ScrollerViewResponse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01E8F6681C22831400C08F7B /* scrollerViewResponseTests */ = {
+		01E8F6681C22831400C08F7B /* ScrollerViewResponseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01E8F6801C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponseTests" */;
+			buildConfigurationList = 01E8F6801C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponseTests" */;
 			buildPhases = (
 				01E8F6651C22831400C08F7B /* Sources */,
 				01E8F6661C22831400C08F7B /* Frameworks */,
@@ -188,14 +191,14 @@
 			dependencies = (
 				01E8F66B1C22831400C08F7B /* PBXTargetDependency */,
 			);
-			name = scrollerViewResponseTests;
+			name = ScrollerViewResponseTests;
 			productName = scrollerViewResponseTests;
-			productReference = 01E8F6691C22831400C08F7B /* scrollerViewResponseTests.xctest */;
+			productReference = 01E8F6691C22831400C08F7B /* ScrollerViewResponseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01E8F6731C22831400C08F7B /* scrollerViewResponseUITests */ = {
+		01E8F6731C22831400C08F7B /* ScrollerViewResponseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01E8F6831C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponseUITests" */;
+			buildConfigurationList = 01E8F6831C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponseUITests" */;
 			buildPhases = (
 				01E8F6701C22831400C08F7B /* Sources */,
 				01E8F6711C22831400C08F7B /* Frameworks */,
@@ -206,9 +209,9 @@
 			dependencies = (
 				01E8F6761C22831400C08F7B /* PBXTargetDependency */,
 			);
-			name = scrollerViewResponseUITests;
+			name = ScrollerViewResponseUITests;
 			productName = scrollerViewResponseUITests;
-			productReference = 01E8F6741C22831400C08F7B /* scrollerViewResponseUITests.xctest */;
+			productReference = 01E8F6741C22831400C08F7B /* ScrollerViewResponseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01E8F64B1C22831400C08F7B /* Build configuration list for PBXProject "scrollerViewResponse" */;
+			buildConfigurationList = 01E8F64B1C22831400C08F7B /* Build configuration list for PBXProject "ScrollerViewResponse" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01E8F64F1C22831400C08F7B /* scrollerViewResponse */,
-				01E8F6681C22831400C08F7B /* scrollerViewResponseTests */,
-				01E8F6731C22831400C08F7B /* scrollerViewResponseUITests */,
+				01E8F64F1C22831400C08F7B /* ScrollerViewResponse */,
+				01E8F6681C22831400C08F7B /* ScrollerViewResponseTests */,
+				01E8F6731C22831400C08F7B /* ScrollerViewResponseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E8F66E1C22831400C08F7B /* scrollerViewResponseTests.m in Sources */,
+				01E8F66E1C22831400C08F7B /* ScrollerViewResponseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E8F6791C22831400C08F7B /* scrollerViewResponseUITests.m in Sources */,
+				01E8F6791C22831400C08F7B /* ScrollerViewResponseUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		01E8F66B1C22831400C08F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01E8F64F1C22831400C08F7B /* scrollerViewResponse */;
+			target = 01E8F64F1C22831400C08F7B /* ScrollerViewResponse */;
 			targetProxy = 01E8F66A1C22831400C08F7B /* PBXContainerItemProxy */;
 		};
 		01E8F6761C22831400C08F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01E8F64F1C22831400C08F7B /* scrollerViewResponse */;
+			target = 01E8F64F1C22831400C08F7B /* ScrollerViewResponse */;
 			targetProxy = 01E8F6751C22831400C08F7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.scrollerViewResponseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollerViewResponse.app/scrollerViewResponse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollerViewResponse.temp_caseinsensitive_rename.app/ScrollerViewResponse.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -470,7 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.scrollerViewResponseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollerViewResponse.app/scrollerViewResponse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollerViewResponse.temp_caseinsensitive_rename.app/ScrollerViewResponse.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -501,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01E8F64B1C22831400C08F7B /* Build configuration list for PBXProject "scrollerViewResponse" */ = {
+		01E8F64B1C22831400C08F7B /* Build configuration list for PBXProject "ScrollerViewResponse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E8F67B1C22831500C08F7B /* Debug */,
@@ -510,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01E8F67D1C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponse" */ = {
+		01E8F67D1C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E8F67E1C22831500C08F7B /* Debug */,
@@ -519,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01E8F6801C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponseTests" */ = {
+		01E8F6801C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E8F6811C22831500C08F7B /* Debug */,
@@ -528,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01E8F6831C22831500C08F7B /* Build configuration list for PBXNativeTarget "scrollerViewResponseUITests" */ = {
+		01E8F6831C22831500C08F7B /* Build configuration list for PBXNativeTarget "ScrollerViewResponseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E8F6841C22831500C08F7B /* Debug */,
