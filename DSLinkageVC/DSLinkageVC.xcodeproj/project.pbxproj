@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DC09931F553B48007E1122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09921F553B48007E1122 /* main.m */; };
+		01DC09961F553B48007E1122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09951F553B48007E1122 /* AppDelegate.m */; };
+		01DC099C1F553B48007E1122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DC099A1F553B48007E1122 /* Main.storyboard */; };
+		01DC099E1F553B48007E1122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DC099D1F553B48007E1122 /* Assets.xcassets */; };
+		01DC09A11F553B48007E1122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DC099F1F553B48007E1122 /* LaunchScreen.storyboard */; };
+		01DC09AC1F553B48007E1122 /* DSLinkageVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09AB1F553B48007E1122 /* DSLinkageVCTests.m */; };
+		01DC09B71F553B48007E1122 /* DSLinkageVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09B61F553B48007E1122 /* DSLinkageVCUITests.m */; };
+		01DC09CD1F553C29007E1122 /* DSBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09CC1F553C29007E1122 /* DSBaseTableVC.m */; };
+		01DC09D01F553C44007E1122 /* DSTableVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09CF1F553C44007E1122 /* DSTableVC1.m */; };
+		01DC09D31F553C4D007E1122 /* DSTableVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09D21F553C4D007E1122 /* DSTableVC2.m */; };
+		01DC09D61F553C57007E1122 /* DSTableVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09D51F553C57007E1122 /* DSTableVC3.m */; };
+		01DC09D91F553C67007E1122 /* DSTableVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09D81F553C67007E1122 /* DSTableVC4.m */; };
+		01DC09DC1F553C74007E1122 /* DSTableVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09DB1F553C74007E1122 /* DSTableVC5.m */; };
+		01DC09DF1F553C97007E1122 /* DSTableVC6.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09DE1F553C97007E1122 /* DSTableVC6.m */; };
+		01DC09E21F553D1E007E1122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC09E11F553D1E007E1122 /* ViewController.m */; };
+		01DC09E61F555BA1007E1122 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DC09E51F555BA1007E1122 /* Reveal.framework */; };
+		01DC0A1A1F594CB2007E1122 /* MyTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC0A191F594CB2007E1122 /* MyTableVC.m */; };
+		01E212711F7CD6550081073D /* DSLinkageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2126E1F7CD6550081073D /* DSLinkageLabel.m */; };
+		01E212721F7CD6550081073D /* DSLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E212701F7CD6550081073D /* DSLinkageVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01DC09A81F553B48007E1122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DC09861F553B48007E1122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DC098D1F553B48007E1122;
+			remoteInfo = DSLinkageVC;
+		};
+		01DC09B31F553B48007E1122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DC09861F553B48007E1122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DC098D1F553B48007E1122;
+			remoteInfo = DSLinkageVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DC098E1F553B48007E1122 /* DSLinkageVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLinkageVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DC09921F553B48007E1122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01DC09941F553B48007E1122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01DC09951F553B48007E1122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01DC099B1F553B48007E1122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01DC099D1F553B48007E1122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01DC09A01F553B48007E1122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01DC09A21F553B48007E1122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DC09A71F553B48007E1122 /* DSLinkageVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLinkageVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DC09AB1F553B48007E1122 /* DSLinkageVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLinkageVCTests.m; sourceTree = "<group>"; };
+		01DC09AD1F553B48007E1122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DC09B21F553B48007E1122 /* DSLinkageVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLinkageVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DC09B61F553B48007E1122 /* DSLinkageVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLinkageVCUITests.m; sourceTree = "<group>"; };
+		01DC09B81F553B48007E1122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DC09CB1F553C29007E1122 /* DSBaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseTableVC.h; sourceTree = "<group>"; };
+		01DC09CC1F553C29007E1122 /* DSBaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseTableVC.m; sourceTree = "<group>"; };
+		01DC09CE1F553C44007E1122 /* DSTableVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC1.h; sourceTree = "<group>"; };
+		01DC09CF1F553C44007E1122 /* DSTableVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC1.m; sourceTree = "<group>"; };
+		01DC09D11F553C4D007E1122 /* DSTableVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC2.h; sourceTree = "<group>"; };
+		01DC09D21F553C4D007E1122 /* DSTableVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC2.m; sourceTree = "<group>"; };
+		01DC09D41F553C57007E1122 /* DSTableVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC3.h; sourceTree = "<group>"; };
+		01DC09D51F553C57007E1122 /* DSTableVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC3.m; sourceTree = "<group>"; };
+		01DC09D71F553C67007E1122 /* DSTableVC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC4.h; sourceTree = "<group>"; };
+		01DC09D81F553C67007E1122 /* DSTableVC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC4.m; sourceTree = "<group>"; };
+		01DC09DA1F553C74007E1122 /* DSTableVC5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC5.h; sourceTree = "<group>"; };
+		01DC09DB1F553C74007E1122 /* DSTableVC5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC5.m; sourceTree = "<group>"; };
+		01DC09DD1F553C97007E1122 /* DSTableVC6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableVC6.h; sourceTree = "<group>"; };
+		01DC09DE1F553C97007E1122 /* DSTableVC6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableVC6.m; sourceTree = "<group>"; };
+		01DC09E01F553D1E007E1122 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01DC09E11F553D1E007E1122 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01DC09E51F555BA1007E1122 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		01DC0A181F594CB2007E1122 /* MyTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableVC.h; sourceTree = "<group>"; };
+		01DC0A191F594CB2007E1122 /* MyTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableVC.m; sourceTree = "<group>"; };
+		01E2126D1F7CD6550081073D /* DSLinkageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLinkageLabel.h; sourceTree = "<group>"; };
+		01E2126E1F7CD6550081073D /* DSLinkageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLinkageLabel.m; sourceTree = "<group>"; };
+		01E2126F1F7CD6550081073D /* DSLinkageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLinkageVC.h; sourceTree = "<group>"; };
+		01E212701F7CD6550081073D /* DSLinkageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLinkageVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DC098B1F553B48007E1122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DC09E61F555BA1007E1122 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09A41F553B48007E1122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09AF1F553B48007E1122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DC09851F553B48007E1122 = {
+			isa = PBXGroup;
+			children = (
+				01DC09E51F555BA1007E1122 /* Reveal.framework */,
+				01DC09901F553B48007E1122 /* DSLinkageVC */,
+				01DC09AA1F553B48007E1122 /* DSLinkageVCTests */,
+				01DC09B51F553B48007E1122 /* DSLinkageVCUITests */,
+				01DC098F1F553B48007E1122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DC098F1F553B48007E1122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DC098E1F553B48007E1122 /* DSLinkageVC.app */,
+				01DC09A71F553B48007E1122 /* DSLinkageVCTests.xctest */,
+				01DC09B21F553B48007E1122 /* DSLinkageVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DC09901F553B48007E1122 /* DSLinkageVC */ = {
+			isa = PBXGroup;
+			children = (
+				01DC09941F553B48007E1122 /* AppDelegate.h */,
+				01DC09951F553B48007E1122 /* AppDelegate.m */,
+				01DC09E01F553D1E007E1122 /* ViewController.h */,
+				01DC09E11F553D1E007E1122 /* ViewController.m */,
+				01DC0A181F594CB2007E1122 /* MyTableVC.h */,
+				01DC0A191F594CB2007E1122 /* MyTableVC.m */,
+				01DC09CB1F553C29007E1122 /* DSBaseTableVC.h */,
+				01DC09CC1F553C29007E1122 /* DSBaseTableVC.m */,
+				01E2126D1F7CD6550081073D /* DSLinkageLabel.h */,
+				01E2126E1F7CD6550081073D /* DSLinkageLabel.m */,
+				01E2126F1F7CD6550081073D /* DSLinkageVC.h */,
+				01E212701F7CD6550081073D /* DSLinkageVC.m */,
+				01DC09C71F553BED007E1122 /* VCs */,
+				01DC099A1F553B48007E1122 /* Main.storyboard */,
+				01DC099D1F553B48007E1122 /* Assets.xcassets */,
+				01DC099F1F553B48007E1122 /* LaunchScreen.storyboard */,
+				01DC09A21F553B48007E1122 /* Info.plist */,
+				01DC09911F553B48007E1122 /* Supporting Files */,
+			);
+			path = DSLinkageVC;
+			sourceTree = "<group>";
+		};
+		01DC09911F553B48007E1122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DC09921F553B48007E1122 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01DC09AA1F553B48007E1122 /* DSLinkageVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				01DC09AB1F553B48007E1122 /* DSLinkageVCTests.m */,
+				01DC09AD1F553B48007E1122 /* Info.plist */,
+			);
+			path = DSLinkageVCTests;
+			sourceTree = "<group>";
+		};
+		01DC09B51F553B48007E1122 /* DSLinkageVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01DC09B61F553B48007E1122 /* DSLinkageVCUITests.m */,
+				01DC09B81F553B48007E1122 /* Info.plist */,
+			);
+			path = DSLinkageVCUITests;
+			sourceTree = "<group>";
+		};
+		01DC09C71F553BED007E1122 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				01DC09CE1F553C44007E1122 /* DSTableVC1.h */,
+				01DC09CF1F553C44007E1122 /* DSTableVC1.m */,
+				01DC09D11F553C4D007E1122 /* DSTableVC2.h */,
+				01DC09D21F553C4D007E1122 /* DSTableVC2.m */,
+				01DC09D41F553C57007E1122 /* DSTableVC3.h */,
+				01DC09D51F553C57007E1122 /* DSTableVC3.m */,
+				01DC09D71F553C67007E1122 /* DSTableVC4.h */,
+				01DC09D81F553C67007E1122 /* DSTableVC4.m */,
+				01DC09DA1F553C74007E1122 /* DSTableVC5.h */,
+				01DC09DB1F553C74007E1122 /* DSTableVC5.m */,
+				01DC09DD1F553C97007E1122 /* DSTableVC6.h */,
+				01DC09DE1F553C97007E1122 /* DSTableVC6.m */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DC098D1F553B48007E1122 /* DSLinkageVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DC09BB1F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVC" */;
+			buildPhases = (
+				01DC098A1F553B48007E1122 /* Sources */,
+				01DC098B1F553B48007E1122 /* Frameworks */,
+				01DC098C1F553B48007E1122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSLinkageVC;
+			productName = DSLinkageVC;
+			productReference = 01DC098E1F553B48007E1122 /* DSLinkageVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01DC09A61F553B48007E1122 /* DSLinkageVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DC09BE1F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVCTests" */;
+			buildPhases = (
+				01DC09A31F553B48007E1122 /* Sources */,
+				01DC09A41F553B48007E1122 /* Frameworks */,
+				01DC09A51F553B48007E1122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DC09A91F553B48007E1122 /* PBXTargetDependency */,
+			);
+			name = DSLinkageVCTests;
+			productName = DSLinkageVCTests;
+			productReference = 01DC09A71F553B48007E1122 /* DSLinkageVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01DC09B11F553B48007E1122 /* DSLinkageVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DC09C11F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVCUITests" */;
+			buildPhases = (
+				01DC09AE1F553B48007E1122 /* Sources */,
+				01DC09AF1F553B48007E1122 /* Frameworks */,
+				01DC09B01F553B48007E1122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DC09B41F553B48007E1122 /* PBXTargetDependency */,
+			);
+			name = DSLinkageVCUITests;
+			productName = DSLinkageVCUITests;
+			productReference = 01DC09B21F553B48007E1122 /* DSLinkageVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DC09861F553B48007E1122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ai;
+				TargetAttributes = {
+					01DC098D1F553B48007E1122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AL8Z95Q4JM;
+						ProvisioningStyle = Automatic;
+					};
+					01DC09A61F553B48007E1122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01DC098D1F553B48007E1122;
+					};
+					01DC09B11F553B48007E1122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01DC098D1F553B48007E1122;
+					};
+				};
+			};
+			buildConfigurationList = 01DC09891F553B48007E1122 /* Build configuration list for PBXProject "DSLinkageVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DC09851F553B48007E1122;
+			productRefGroup = 01DC098F1F553B48007E1122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DC098D1F553B48007E1122 /* DSLinkageVC */,
+				01DC09A61F553B48007E1122 /* DSLinkageVCTests */,
+				01DC09B11F553B48007E1122 /* DSLinkageVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DC098C1F553B48007E1122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DC09A11F553B48007E1122 /* LaunchScreen.storyboard in Resources */,
+				01DC099E1F553B48007E1122 /* Assets.xcassets in Resources */,
+				01DC099C1F553B48007E1122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09A51F553B48007E1122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09B01F553B48007E1122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DC098A1F553B48007E1122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DC09961F553B48007E1122 /* AppDelegate.m in Sources */,
+				01DC09CD1F553C29007E1122 /* DSBaseTableVC.m in Sources */,
+				01DC09D61F553C57007E1122 /* DSTableVC3.m in Sources */,
+				01DC09DF1F553C97007E1122 /* DSTableVC6.m in Sources */,
+				01DC0A1A1F594CB2007E1122 /* MyTableVC.m in Sources */,
+				01E212711F7CD6550081073D /* DSLinkageLabel.m in Sources */,
+				01DC09D91F553C67007E1122 /* DSTableVC4.m in Sources */,
+				01DC09E21F553D1E007E1122 /* ViewController.m in Sources */,
+				01DC09931F553B48007E1122 /* main.m in Sources */,
+				01DC09D31F553C4D007E1122 /* DSTableVC2.m in Sources */,
+				01E212721F7CD6550081073D /* DSLinkageVC.m in Sources */,
+				01DC09DC1F553C74007E1122 /* DSTableVC5.m in Sources */,
+				01DC09D01F553C44007E1122 /* DSTableVC1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09A31F553B48007E1122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DC09AC1F553B48007E1122 /* DSLinkageVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DC09AE1F553B48007E1122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DC09B71F553B48007E1122 /* DSLinkageVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DC09A91F553B48007E1122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DC098D1F553B48007E1122 /* DSLinkageVC */;
+			targetProxy = 01DC09A81F553B48007E1122 /* PBXContainerItemProxy */;
+		};
+		01DC09B41F553B48007E1122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DC098D1F553B48007E1122 /* DSLinkageVC */;
+			targetProxy = 01DC09B31F553B48007E1122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01DC099A1F553B48007E1122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DC099B1F553B48007E1122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01DC099F1F553B48007E1122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DC09A01F553B48007E1122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DC09B91F553B48007E1122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01DC09BA1F553B48007E1122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01DC09BC1F553B48007E1122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL8Z95Q4JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DSLinkageVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01DC09BD1F553B48007E1122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL8Z95Q4JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DSLinkageVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01DC09BF1F553B48007E1122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DSLinkageVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSLinkageVC.app/DSLinkageVC";
+			};
+			name = Debug;
+		};
+		01DC09C01F553B48007E1122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DSLinkageVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSLinkageVC.app/DSLinkageVC";
+			};
+			name = Release;
+		};
+		01DC09C21F553B48007E1122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DSLinkageVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DSLinkageVC;
+			};
+			name = Debug;
+		};
+		01DC09C31F553B48007E1122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DSLinkageVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.DSLinkageVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DSLinkageVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DC09891F553B48007E1122 /* Build configuration list for PBXProject "DSLinkageVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DC09B91F553B48007E1122 /* Debug */,
+				01DC09BA1F553B48007E1122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DC09BB1F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DC09BC1F553B48007E1122 /* Debug */,
+				01DC09BD1F553B48007E1122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DC09BE1F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DC09BF1F553B48007E1122 /* Debug */,
+				01DC09C01F553B48007E1122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DC09C11F553B48007E1122 /* Build configuration list for PBXNativeTarget "DSLinkageVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DC09C21F553B48007E1122 /* Debug */,
+				01DC09C31F553B48007E1122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DC09861F553B48007E1122 /* Project object */;
+}
