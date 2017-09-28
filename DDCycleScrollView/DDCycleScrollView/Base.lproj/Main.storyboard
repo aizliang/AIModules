@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUm-Ed-zq4">
+                                <rect key="frame" x="88.5" y="427" width="199" height="30"/>
+                                <state key="normal" title="更换图片链接，更改滚动方向"/>
+                                <connections>
+                                    <action selector="changeImagePaths:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sTg-7o-OHH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Th-3S-8fx">
+                                <rect key="frame" x="141.5" y="472" width="92" height="30"/>
+                                <state key="normal" title="单张图片显示"/>
+                                <connections>
+                                    <action selector="showSingleImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VI2-AJ-CuX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29i-eh-sSW">
+                                <rect key="frame" x="141.5" y="517" width="92" height="30"/>
+                                <state key="normal" title="切换轮播状态"/>
+                                <connections>
+                                    <action selector="changeScrollState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hh6-0u-Od5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igk-8F-7FK">
+                                <rect key="frame" x="149.5" y="562" width="77" height="30"/>
+                                <state key="normal" title="加载空视图"/>
+                                <connections>
+                                    <action selector="reloadImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xcJ-JF-5Az"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UW-7B-7Nq">
+                                <rect key="frame" x="108.5" y="607" width="158" height="30"/>
+                                <state key="normal" title="重新加载视图(尺寸为0)"/>
+                                <connections>
+                                    <action selector="reloadZeroBoundsImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yL3-Ho-Nmv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMz-WT-UGQ">
+                                <rect key="frame" x="148" y="382" width="79" height="30"/>
+                                <state key="normal" title="重置banner"/>
+                                <connections>
+                                    <action selector="resetBanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLR-Hm-88d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prY-rA-cPN">
+                                <rect key="frame" x="153" y="337" width="70" height="30"/>
+                                <state key="normal" title="更换cell源"/>
+                                <connections>
+                                    <action selector="changeCellSource:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QtG-Go-pOe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Th-3S-8fx" firstAttribute="top" secondItem="dUm-Ed-zq4" secondAttribute="bottom" constant="15" id="8TA-L0-eTZ"/>
+                            <constraint firstItem="29i-eh-sSW" firstAttribute="top" secondItem="2Th-3S-8fx" secondAttribute="bottom" constant="15" id="Acg-Eu-Ppp"/>
+                            <constraint firstItem="8UW-7B-7Nq" firstAttribute="centerX" secondItem="dUm-Ed-zq4" secondAttribute="centerX" id="Iyf-sR-Bfg"/>
+                            <constraint firstItem="8UW-7B-7Nq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jtn-0m-LcP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8UW-7B-7Nq" secondAttribute="bottom" constant="30" id="Tob-z5-reN"/>
+                            <constraint firstItem="igk-8F-7FK" firstAttribute="top" secondItem="29i-eh-sSW" secondAttribute="bottom" constant="15" id="e22-OE-3jp"/>
+                            <constraint firstItem="XMz-WT-UGQ" firstAttribute="top" secondItem="prY-rA-cPN" secondAttribute="bottom" constant="15" id="eIT-8E-Duk"/>
+                            <constraint firstItem="8UW-7B-7Nq" firstAttribute="top" secondItem="igk-8F-7FK" secondAttribute="bottom" constant="15" id="gdc-Ho-ddp"/>
+                            <constraint firstItem="XMz-WT-UGQ" firstAttribute="centerX" secondItem="dUm-Ed-zq4" secondAttribute="centerX" id="hlV-qI-bFZ"/>
+                            <constraint firstItem="29i-eh-sSW" firstAttribute="centerX" secondItem="dUm-Ed-zq4" secondAttribute="centerX" id="iF3-4t-Eh5"/>
+                            <constraint firstItem="prY-rA-cPN" firstAttribute="centerX" secondItem="XMz-WT-UGQ" secondAttribute="centerX" id="jku-wh-AjD"/>
+                            <constraint firstItem="dUm-Ed-zq4" firstAttribute="top" secondItem="XMz-WT-UGQ" secondAttribute="bottom" constant="15" id="lSJ-tV-gGR"/>
+                            <constraint firstItem="2Th-3S-8fx" firstAttribute="centerX" secondItem="dUm-Ed-zq4" secondAttribute="centerX" id="trp-V8-gGk"/>
+                            <constraint firstItem="igk-8F-7FK" firstAttribute="centerX" secondItem="dUm-Ed-zq4" secondAttribute="centerX" id="vIT-yy-1am"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
