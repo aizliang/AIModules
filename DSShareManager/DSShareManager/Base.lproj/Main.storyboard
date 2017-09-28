@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKd-Qo-32m">
+                                <rect key="frame" x="149" y="198" width="77" height="30"/>
+                                <state key="normal" title="分享给好友"/>
+                                <connections>
+                                    <action selector="shareToWXSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4lg-0H-bxb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81c-Bg-Eg4">
+                                <rect key="frame" x="141" y="258" width="92" height="30"/>
+                                <state key="normal" title="分享到朋友圈"/>
+                                <connections>
+                                    <action selector="shareToWXCirle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aay-Kc-MZa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viL-9u-cQ8">
+                                <rect key="frame" x="140" y="378" width="95" height="30"/>
+                                <state key="normal" title="分享到qq空间"/>
+                                <connections>
+                                    <action selector="shareToQQZone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B7b-ZS-QVU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qex-1E-tkO">
+                                <rect key="frame" x="149" y="438" width="77" height="30"/>
+                                <state key="normal" title="分享到微博"/>
+                                <connections>
+                                    <action selector="shareToWB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdn-gx-6E6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ado-jD-boz">
+                                <rect key="frame" x="140" y="318" width="95" height="30"/>
+                                <state key="normal" title="分享给qq好友"/>
+                                <connections>
+                                    <action selector="shareToQQSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evd-aP-aav"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="viL-9u-cQ8" firstAttribute="centerX" secondItem="ado-jD-boz" secondAttribute="centerX" id="4lF-Gx-Ftn"/>
+                            <constraint firstItem="ado-jD-boz" firstAttribute="centerX" secondItem="81c-Bg-Eg4" secondAttribute="centerX" id="AhQ-ze-JKz"/>
+                            <constraint firstItem="81c-Bg-Eg4" firstAttribute="top" secondItem="YKd-Qo-32m" secondAttribute="bottom" constant="30" id="Lxp-wO-Ooe"/>
+                            <constraint firstItem="Qex-1E-tkO" firstAttribute="top" secondItem="viL-9u-cQ8" secondAttribute="bottom" constant="30" id="Og8-2U-rrg"/>
+                            <constraint firstItem="81c-Bg-Eg4" firstAttribute="centerX" secondItem="YKd-Qo-32m" secondAttribute="centerX" id="XL7-RG-Vaz"/>
+                            <constraint firstItem="viL-9u-cQ8" firstAttribute="top" secondItem="ado-jD-boz" secondAttribute="bottom" constant="30" id="iMg-7P-Wxm"/>
+                            <constraint firstItem="Qex-1E-tkO" firstAttribute="centerX" secondItem="viL-9u-cQ8" secondAttribute="centerX" id="jTh-lK-aoJ"/>
+                            <constraint firstItem="YKd-Qo-32m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qtT-Xa-nr7"/>
+                            <constraint firstItem="ado-jD-boz" firstAttribute="top" secondItem="81c-Bg-Eg4" secondAttribute="bottom" constant="30" id="tpI-yw-n0R"/>
+                            <constraint firstItem="ado-jD-boz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wZJ-lE-tvZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>
