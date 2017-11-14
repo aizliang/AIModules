@@ -12,6 +12,11 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/QQApiInterface.h>
 #import "WeiboSDK.h"
+
+static NSString *const kTencent = @"";
+static NSString *const kWX = @"";
+static NSString *const kWeibo = @"";
+
 @interface AppDelegate ()
 
 @end
@@ -21,9 +26,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [WXApi registerApp:@"wx449343cfdd5c1bf8"];
-    [WeiboSDK registerApp:@"3511254898"];
-    [[TencentOAuth alloc] initWithAppId:@"1103598557" andDelegate:nil];
+    [WXApi registerApp:kWX];
+    [WeiboSDK registerApp:kWeibo];
+    [[TencentOAuth alloc] initWithAppId:kTencent andDelegate:nil];
     return YES;
 }
 
@@ -55,13 +60,13 @@
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url  {
-    if ([[url absoluteString] hasPrefix:@"wx449343cfdd5c1bf8://"]) {
+    if ([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"wx%@://",kWX]]) {
         return [WXApi handleOpenURL:url delegate:nil];
         
-    } else if([[url absoluteString] hasPrefix:@"wb3511254898://"]) {
+    } else if([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"wb%@://",kWeibo]]) {
         return [WeiboSDK handleOpenURL:url delegate:nil];
         
-    } else if([[url absoluteString] hasPrefix:@"tencent1103598557://"]) {
+    } else if([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"tencent%@://",kTencent]]) {
         return [QQApiInterface handleOpenURL:url delegate:nil];
 
     } else {
@@ -72,13 +77,13 @@
 
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation {
-    if ([[url absoluteString] hasPrefix:@"wx449343cfdd5c1bf8://"]) {
+    if ([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"wx%@://",kWX]]) {
         return [WXApi handleOpenURL:url delegate:nil];
         
-    } else if([[url absoluteString] hasPrefix:@"wb3511254898://"]) {
+    } else if([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"wb%@://",kWeibo]]) {
         return [WeiboSDK handleOpenURL:url delegate:nil];
         
-    } else if([[url absoluteString] hasPrefix:@"tencent1103598557://"]) {
+    } else if([[url absoluteString] hasPrefix:[NSString stringWithFormat:@"tencent%@://",kTencent]]) {
         return [QQApiInterface handleOpenURL:url delegate:nil];
         
     } else {

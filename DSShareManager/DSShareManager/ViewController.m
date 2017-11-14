@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DSShareManager.h"
+#import "WXApi.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSData *imageData;
@@ -30,7 +31,6 @@
 }
 
 - (IBAction)shareToWXSession:(id)sender {
-    
     DSShareModel *model = [[DSShareModel alloc] initWithTitle:@"测试" content:@"这是一个测试内容" imageData:self.imageData linkUrl:@"https://www.baidu.com/"];
     [[DSShareManager shareManager] shareWithModel:model shareType:ShareToWXSession];
 }
