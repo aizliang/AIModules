@@ -1,15 +1,23 @@
 # FunctionalModule
-这个项目存放一些自定义的 OC 组件和 Demo
+
+这里存放一些自定义的工具和组件。
 
 
-AICycleScrollView: 显示左右部分视图的轮播图
+#### AICycleScrollView
 
-DDCycleScrollView: 轮播视图，支持视图和页面控制器的自定义
+显示左右部分视图的轮播图
 
-DSLinkageVC: 今日头条类似的标题导航栏
+#### DDCycleScrollView
 
-DSShareManager: QQ、微信、微博分享集成
+轮播视图，支持视图和页面控制器的自定义
 
-画板项目：实现小画板功能
+#### DSLinkageVC
+今日头条类似的标题导航栏
 
-省市区三级级联：实现省市区三级级联选择器
+#### DDAddressPicker
+
+实现省市区三级级联选择器
+
+#### AITool
+
+该工具目前支持获取设备相关信息，定位，访问通讯录，导入 `AITools.h` 集成使用。
