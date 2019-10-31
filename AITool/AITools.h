@@ -14,5 +14,7 @@
 #import "AINetTool.h"
 #import "AILocation.h"
 #import "AIContact.h"
+#import "AIHierarchyTool.h"
+#import "UIColor+AI.h"
 
 #endif /* AITools_h */

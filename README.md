@@ -20,4 +20,18 @@
 
 #### AITool
 
-该工具目前支持获取设备相关信息，定位，访问通讯录，导入 `AITools.h` 集成使用。
+该工具提供一些项目通用的基础功能，导入 `AITools.h` 集成使用。
+
+`AIJSONTransfer` 字典和 json 字符串的转换
+
+`AIDeviceTool` 获取设备相关信息
+
+`AINetTool` 获取 ip 地址
+
+`AILocation` 获取位置
+
+`AIContact` 获取联系人
+
+`AIHierarchyTool` 获取顶层视图控制器
+
+`UIColor+AI` UIColor 扩展功能
